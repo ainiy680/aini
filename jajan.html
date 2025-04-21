@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produk Makanan - Djadjanan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-[#921A40] shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#FEFBF6]">Djadjanan</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="index.html" class="hover:text-[#9EC6F3]">Kembali</a>
+        <a href="#contact" class="hover:text-[#9EC6F3]">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Produk Section -->
+  <section id="products" class="py-20 bg-[#C75B7A] text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">Produk <span class="text-[#3F2E3E]">Jajanan</span></h2>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <!-- Produk 1 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="produk/makarun.jpg" alt="Macaroon" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Macaroon</h3>
+          <p class="text-[#007074]">Rp40.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">dengan luaran yang renyah dan rasa yang manis siap membuat mood bagus seharian.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 2 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="produk/dimsum mentai.jpg" alt="Dimsum Mentai" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Dimsum Mentai</h3>
+          <p class="text-[#007074]">Rp18.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Dimsum dengan isian daging ayam yang banyak dipadukan dengan saus mentai yang lezat.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 3 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="produk/cireng isi.jpg" alt="Cireng Isi" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Cireng Isi</h3>
+          <p class="text-[#007074]">Rp10.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Cireng dengan isian ayam usus atau kulit dengan kulit yang gurih serta renyah.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 4 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="produk/wonton.jpg" alt="Wonton" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Wonton</h3>
+          <p class="text-[#007074]">Rp25.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Wonton isi ayam dan udang, dengan kuah kaldunya.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 5 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="produk/tahu susu.jpg" alt="Tahu Susu" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Tahu Susu</h3>
+          <p class="text-[#007074]">Rp20.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Tahu dengan tekstur yang lembut.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 6 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/236x/3a/5c/77/3a5c77d3726f0cc8ca0e8361eb010e9d.jpg" alt="Mie Ayam" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">CornDog</h3>
+          <p class="text-[#007074]">Rp15.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Dengan isian sosis serta keju yang lumer, dan luaran yang diselimuti oleh kentang.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+        <!-- Produk 7 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/474x/67/a2/bc/67a2bce760ba8f043932d6e4fc76354d.jpg" alt="pokpok" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">pokpok</h3>
+          <p class="text-[#007074]">Rp25.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Ayam dengan ukuran yang besar kemudin di potog kecil dan diberi bumbu sesuai selera.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 8 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/236x/50/54/fc/5054fcdc4e9309cb1cbc23df34292e8b.jpg" alt="Kue Balok" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Kue Balok</h3>
+          <p class="text-[#007074]">Rp22.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Kue coklat dengan luaran yang tipis dan isian coklat yang lumer.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 9 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/474x/52/c7/b8/52c7b8c6647390570268da2c07edcf71.jpg" alt="Kue Pancong" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Kue Pancong</h3>
+          <p class="text-[#007074]">Rp12.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Kue dengan rasa gurih dan manis menjadi satu.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 10 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/236x/6b/fd/6a/6bfd6a2f6a32bccd9b6af9c46b11a1fd.jpg" alt="Risoles Mayo" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Risoles Mayo</h3>
+          <p class="text-[#007074]">Rp68.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">risoles dengan ukuran yang besar dan diisi oleh daging wagyu serta keju lumer yang melimpah.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 11 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/736x/d3/e5/f4/d3e5f437ec1319b5e2537cc14326e796.jpg" alt="Gohyong " class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Gohyong </h3>
+          <p class="text-[#007074]">Rp20.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Dengan isian Ayam Udang serta sayuran yang digoreng kering dan disajikan dengan saus asam manis.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+
+        <!-- Produk 12 -->
+        <div class="bg-[#D9ABAB] p-4 rounded-xl shadow-md hover:scale-105 hover:shadow-xl transition duration-300">
+          <img src="https://i.pinimg.com/236x/ce/b5/20/ceb5207136b80833023b03a9837b0a80.jpg" alt="Gyoza Chili Oil" class="rounded-lg mb-3 h-32 w-full object-cover">
+          <h3 class="font-semibold text-base">Gyoza Chili Oil</h3>
+          <p class="text-[#007074]">Rp18.000</p>
+          <p class="text-xs text-white/70 mt-1 mb-3">Gyoza dengan isian ayam yang melimpah dipadukan dengan chili oil yang manis gurih dan pedas.</p>
+          <button class="w-full bg-[#3F2E3E] text-white py-2 rounded-lg text-sm hover:bg-[#2e1e2f] transition">Beli Sekarang</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Kontak -->
+<section id="contact" class="bg-[#F9C8D9] py-20">
+  <div class="max-w-xl mx-auto px-4 text-center bg-white rounded-xl shadow-lg p-8">
+    <h2 class="text-3xl font-bold text-[#3F2E3E] mb-4">Hubungi <span class="text-[#7A3E3E]">Kami</span></h2>
+    <p class="text-[#3F2E3E] mb-6">Ingin memesan menu kami? Hubungi lewat kontak berikut:</p>
+    <p class="text-[#7A3E3E] text-lg mb-2">📞 0812-3456-7890</p>
+    <p class="text-[#7A3E3E] text-lg">📧 djadjanan@email.com</p>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-[#BE5985] py-6 text-center text-white/60 text-sm">
+      &copy; 2025 Djadjanan. Semua hak dilindungi.
+
+      

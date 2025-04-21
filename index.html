@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Djadjanan - Makanan Tradisional Indonesia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Topbar -->
+  <div class="bg-[#F7CFD8] py-2 text-center text-sm text-[#1A1A1D]">
+    Selamat datang di Djadjanan - Cita rasa Nusantara!
+  </div>
+
+  <!-- Navbar -->
+  <header class="bg-[#F4F8D3] shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#3F2E3E]">Djadjanan</h1>
+      <nav class="space-x-6 hidden md:flex text-[#3F2E3E] font-bold">
+        <a href="#hero" class="hover:text-[#2B1B2F]">Beranda</a>
+        <a href="#about" class="hover:text-[#2B1B2F]">Tentang</a>
+        <a href="#menu" class="hover:text-[#2B1B2F]">Menu</a>
+        <a href="#products" class="hover:text-[#2B1B2F]">Produk</a>
+        <a href="#contact" class="hover:text-[#2B1B2F]">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-cover bg-center bg-no-repeat py-24" style="background-image: url('bekgron.jpg');">
+    <div class="bg-[#9F91CC2] backdrop-blur-sm py-16 px-6 md:px-12 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Cita Rasa <span class="text-[#3F2E3E]">Tradisional</span></h2>
+      <p class="text-lg text-white/80 max-w-2xl mx-auto">Nikmati kelezatan makanan khas Indonesia yang autentik, langsung dari dapur kami ke meja Anda.</p>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="about" class="py-20 bg-[#F7CFD8] text-white">
+    <div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg px-6 py-10 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#3F2E3E]">Tentang <span class="text-[#3F2E3E]">Kami</span></h2>
+      <p class="text-lg md:text-xl text-[#1A1A1D] leading-relaxed">
+        Djadjanan adalah penyedia makanan hits dan kekinian sejak 2022. Berdiri di kota Surabaya, kami hadir dengan cita rasa modern yang terinspirasi dari tren kuliner masa kini—simple, enak, dan pastinya bikin nagih.
+Kami percaya, jajan itu nggak harus ribet. Makanya setiap menu kami dibuat dari bahan pilihan dan dikemas dengan vibe santai tapi tetap niat. Cocok buat nemenin hari lo yang sibuk, mager, atau lagi butuh mood booster.
+      </p>
+    </div>
+  </section>
+
+  <div class="h-20 w-full bg-[#F9F9D2]"></div>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-20 bg-[#F7CFD8] text-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">Menu <span class="text-[#3F2E3E]">Utama</span></h2>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+          <img src="produk/wonton.jpg" alt="WONTON" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">Wonton</h3>
+          <p class="text-[#123524] mt-2">Rp25.000</p>
+        </div>
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+          <img src="produk/curry katsu.jpg" alt="CURRY" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">Kari Katsu</h3>
+          <p class="text-[#123524] mt-2">Rp25.000</p>
+        </div>
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-md hover:scale-105 transition-transform">
+          <img src="produk/makarun.jpg" alt="macaroon" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">macaroon</h3>
+          <p class="text-[#123524] mt-2">Rp39.000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produk Unggulan -->
+  <section id="products" class="py-20 bg-[#F4F8D3] text-white">
+    <div class="bg-[#F7CFD8] p-6 rounded-none shadow-lg">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">Produk <span class="text-[#3F2E3E]">Unggulan</span></h2>
+      <div class="flex justify-center gap-4 mb-10 flex-wrap">
+        <a href="mam.html" class="bg-[#8E7DBE] text-white px-4 py-2 rounded-full shadow-xl shadow-black hover:scale-105 transition duration-300">Makanan</a>
+        <a href="mynum.html" class="bg-[#8E7DBE] text-white px-4 py-2 rounded-full shadow-xl shadow-black hover:scale-105 transition duration-300">Minuman</a>
+        <a href="jajan.html" class="bg-[#8E7DBE] text-white px-4 py-2 rounded-full shadow-xl shadow-black hover:scale-105 transition duration-300">Jajanan</a>
+      </div>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+          <img src="https://i.pinimg.com/236x/ba/23/58/ba23581c65f6ef4e724521a481d76c3d.jpg" alt="Nasi Goreng Seafood" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">Nasi Goreng Seafood</h3>
+          <p class="text-[#007074] mt-2">Rp19.000</p>
+          <p class="text-sm text-white/70 mt-2">Nasi Goreng dengan tambahan Seafood yang melimpah..</p>
+        </div>
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+          <img src="https://media.istockphoto.com/id/509808582/id/foto/minuman-biru-es.jpg?s=612x612&w=0&k=20&c=umwh_G7GBUjYFTViKkcl1jkFmw4c_y91FbKbxsOcHY0="" alt="Es Dawet" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">blue coconut</h3>
+          <p class="text-[#007074] mt-2">Rp15.000</p>
+          <p class="text-sm text-white/70 mt-2">Perpaduan sirup biru dengan air kelapa.</p>
+        </div>
+        <div class="bg-[#9FB3DF] p-6 rounded-2xl shadow-lg hover:scale-105 transition">
+          <img src="https://i.pinimg.com/236x/ce/b5/20/ceb5207136b80833023b03a9837b0a80.jpg" alt="Gyoza Chili Oil" class="rounded-xl mb-4 h-48 w-full object-cover">
+          <h3 class="text-xl font-semibold">Gyoza Chili Oil</h3>
+          <p class="text-[#007074] mt-2">Rp18.000</p>
+          <p class="text-sm text-white/70 mt-2">Gyoza isi ayam yang dipadukan dengan chili oil manis gurih pedas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+<section class="py-20 bg-[#F4F8D3] text-[#1A1A1D]">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10">Apa Kata <span class="text-[#3F2E3E]">Pelanggan?</span></h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
+        <p class="italic mb-4">"Dimsumnya Enak bangett!!!, ayamnya banyak kerasa banget dagingnya manis gurih nya pas."</p>
+        <h3 class="font-semibold">– Citra, Gunung Anyar</h3>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★☆</div>
+        <p class="italic mb-4">"Gyoza nya enak bgt bosq"</p>
+        <h3 class="font-semibold">– Jibril, sbyBarat</h3>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
+        <p class="italic mb-4">"Bakmi Aceh nya enak banget, tempatnya juga nyaman!."</p>
+        <h3 class="font-semibold">– Ipo, nginden</h3>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★☆</div>
+        <p class="italic mb-4">"tempatnya enak bersih nyaman menu nya juga enak semua."</p>
+        <h3 class="font-semibold">– Aldi, Bali</h3>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
+        <p class="italic mb-4">"Menunya enak dan dikemas kekinian, love it!"</p>
+        <h3 class="font-semibold">– Tika, Bekasi</h3>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <div class="text-yellow-400 text-lg mb-2">★★★★☆</div>
+        <p class="italic mb-4">"Cocok buat acara rame rame. Selain murah banyak pilihan jajanan yang unik."</p>
+        <h3 class="font-semibold">– Bian, Sawahan</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+     <!-- Kontak -->
+<section id="contact" class="bg-[#F7CFD8] py-20">
+  <div class="max-w-xl mx-auto px-4 text-center bg-white rounded-xl shadow-lg p-8">
+    <h2 class="text-3xl font-bold text-[#3F2E3E] mb-4">Hubungi <span class="text-[#7A3E3E]">Kami</span></h2>
+    <p class="text-[#1A1A1D] mb-6">Ingin memesan menu kami? Hubungi lewat kontak berikut:</p>
+    <p class="text-[#1A1A1D] text-lg mb-2">📞 0812-3456-7890</p>
+    <p class="text-[#1A1A1D] text-lg">📧 djadjanan@email.com</p>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-[#BE5985] py-6 text-center text-[#000000] text-sm">
+      &copy; 2025 Djadjanan. Semua hak dilindungi.
+</body>
+</html>
